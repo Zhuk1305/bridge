@@ -44,3 +44,8 @@
   cursor: pointer;
   transition: all 1s ease;
 }
+.invalid-login {
+  margin-top: 10px;
+  font-size: 20px;
+  color: red;
+}

@@ -4,10 +4,13 @@ import "./index.css";
 const Login = () => {
   const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
+  const [isCorrect, setIsCorrect] = useState(true);
   const checkInputValue = (loginValue, passwordValue) => {
     if (loginValue === "admin" && passwordValue === "123456") {
       localStorage.setItem("LogIn", true);
       window.location = "/";
+    } else {
+      setIsCorrect(false);
     }
   };
 
@@ -37,6 +40,11 @@ const Login = () => {
       >
         Sign In
       </button>
+      {!isCorrect && (
+        <p className="invalid-login">
+          Имя пользователя или пароль введены не верно
+        </p>
+      )}
     </div>
   );
 };
