@@ -1,0 +1,18 @@
+export const DEFAULT_STATE = {
+  DEFAULT_BET: 10,
+};
+
+export const SUIT_WEIGTH = {
+  HEART_WEIGTH: 4,
+  DIAMOND_WEIGTH: 3,
+  CLUB_WEIGTH: 2,
+  SPADE_WEIGTH: 1,
+  NONE_SUIT: 0,
+};
+
+export const IMG_CARD_WEIGTH = {
+  ACE_VALUE: 14,
+  KING_VALUE: 13,
+  QUEEN_VALUE: 12,
+  JACK_VALUE: 11,
+};

@@ -1,0 +1,10 @@
+.balance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.balance-text {
+  font-size: 25px;
+  font-weight: 500;
+}

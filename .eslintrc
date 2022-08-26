@@ -1,0 +1,8 @@
+{
+  "env": { "es6": true, "browser": true },
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "rules": {
+    "react/function-component-definition": "off",
+    "react/prop-types": "off"
+  }
+}

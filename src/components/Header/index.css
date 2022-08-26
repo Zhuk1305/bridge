@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #25405d;
+  color: #fff;
+  padding: 10px 30px;
+}
+.logo {
+  background: #001540;
+  border: 2px solid #001540;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+.sing-out_button {
+  background: #25405d;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #25405d;
+  border-radius: 6px;
+}
+.sing-out_button:hover {
+  border-color: #001540;
+  background: #001540;
+  cursor: pointer;
+  transition: all 1s ease;
+}

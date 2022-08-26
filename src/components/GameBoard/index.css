@@ -1,0 +1,60 @@
+.game-board {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 30px;
+}
+
+.text-board {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-board_help {
+  font-size: 18px;
+  color: #6e6e6e;
+  margin-top: 10px;
+}
+
+.play-board {
+  height: 60%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+.card-img {
+  width: 300px;
+  height: 400px;
+}
+.play-button,
+.chose-button {
+  height: 40px;
+  background: #25405d;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #25405d;
+  border-radius: 6px;
+}
+.play-button:hover,
+.chose-button:hover {
+  border-color: #001540;
+  background: #001540;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.chose-button:disabled {
+  border-color: #666666;
+  background: #666666;
+}
